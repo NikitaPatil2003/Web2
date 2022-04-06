@@ -1,0 +1,26 @@
+<HTML>
+ <HEAD>
+  <TITLE>  </TITLE>
+ <script type="text/javascript">
+ function check()
+ {
+       var result ;
+ 	   result=document.f1.t1.value;
+	   if(result>=40)
+	   {
+	        document.write("<h1>Pass</h1>");
+	   }
+	 else
+	 {
+	 	     document.write("<h1>Fail</h1>");
+	 }
+ }
+ </script>
+ </HEAD>
+
+ <BODY>
+ <form name="f1">
+  	Enter the Student Marks:-   <input type="text" name="t1"	>	<br><br>
+	  <input type="button" value=" Result" onClick="check()">
+ </BODY>
+</HTML>
