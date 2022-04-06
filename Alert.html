@@ -1,0 +1,28 @@
+
+<HTML>
+ <HEAD>
+  <TITLE> Dialog Box </TITLE>
+   <script type="text/javascript">
+   function fname()
+   {
+   	   var a,b;
+   		a=document.f1.t1.value;
+		b=document.f1.t2.value;
+		c= a.concat("  "+b);
+		 alert(c);
+   }
+   </script>
+ </HEAD>
+
+ <BODY>
+  <form name="f1">
+     <h2>______Using Alert Box ______</h2><br>
+  <h3>
+  Enter your first name:-  <input type="text" name="t1">
+  <br>	  <br>
+ Enter your last name:-   <input type="text" name="t2">	<br>	  <br>
+	<input type="button" value="Show" onClick="fname()">
+	</h3>
+  </form>
+ </BODY>
+</HTML>
