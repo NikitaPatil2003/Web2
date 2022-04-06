@@ -1,0 +1,49 @@
+<html>
+<head>
+<title> Calculation </title>
+<script type="text/javascript">
+var a,b,c;
+a=parseInt(window.prompt("Enter the First value"));
+b=parseInt(window.prompt("Enter the Second value"));
+function add()
+  {
+     c=a+b;
+     alert("Addition is  "+c);
+   }
+   function sub()
+   {
+      c=a-b;
+      alert("Substraction is  "+c);
+   }
+   function mul()
+   {
+      c=a*b;
+      alert("Multiplication is  "+c);
+   }
+   function div()
+   {
+      c=a/b;
+      alert("Division is  "+c);
+   }
+   function mod()
+   {
+      c=a%b;
+      alert("Modulus is    "+c);
+   }
+</script>
+</head>
+<body bgcolor="Pink">
+<form>
+<h2>• Calculations Using Prompt Dialog Box •</h1><br>
+<h3>1) Addition of Two Numbers</h3> 
+<input type="button" value="Addition" onClick="add()"><br><br>
+<h3>2) Substraction of Two Numbers</h3> 
+<input type="button" value="Substraction" onClick="sub()" ><br><br>
+<h3>3) Multiplication of Two Numbers</h3> 
+<input type="button" value="Multiplication" onClick="mul()"><br><br>
+<h3>4) Division of Two Numbers</h3>
+<input type="button" value="Division" onClick="div()"><br><br>
+<h3>5) Modulus of Two Numbers</h3>
+<input type="button" value="Modulus" onClick="mod()">
+</body>
+</html>
