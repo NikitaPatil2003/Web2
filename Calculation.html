@@ -1,0 +1,52 @@
+<html>
+<head>
+<script type="text/javascript">
+function f1()
+{
+     var m,n,g;
+     m=(document.getElementById("t1").value);
+     n=(document.getElementById("t2").value);
+   g=parseInt(m)+parseInt(n);
+   document.getElementById("t3").value=g;
+     
+}
+function f2()
+{
+       var m,n,g;
+       m=(document.getElementById("t1").value);
+       n=(document.getElementById("t2").value);
+       g=m-n;
+       document.getElementById("t3").value=g;
+}
+function f3()
+{
+     var m,n,g;
+     m=(document.getElementById("t1").value);
+     n=(document.getElementById("t2").value);
+   g=m*n;
+   document.getElementById("t3").value=g;
+     
+}
+function f4()
+{
+     var m,n,g;
+     m=(document.getElementById("t1").value);
+     n=(document.getElementById("t2").value);
+   g=m/n;
+   document.getElementById("t3").value=g;
+     
+}
+</script>
+</head>
+<body>
+<form name="f5">
+<b>Enter the  first number:-</b> <input type="text" id="t1" ><br><br>
+<b>Enter the second number:- </b><input type="text" id="t2"><br><br>
+<b>Result :- </b> <input type="text" id="t3"><br><br>
+<input type="button" value="Addition" onClick="f1()">
+<input type="button" value="Substraction" onClick="f2()">
+<input type="button" value="Multiplication" onClick="f3()">
+<input type="button" value="Division" onClick="f4()">
+
+</body>
+</html>
