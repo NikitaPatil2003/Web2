@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Cube</title>
+<script>
+function f1()
+{
+var a;
+a=eval(document.getElementById("t1").value);
+b=a*a*a;
+document.getElementById("t2").value=b;
+}
+</script>
+</head>
+<body>
+<form>
+Enter the Number:- <input type="text" id="t1"><br><br>
+<input type="button" value="cube" onclick="f1()"><br><br>
+Result:- <input type="text" id="t2">
+</form>
+</body>
+</html>
